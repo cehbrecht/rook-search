@@ -14,6 +14,10 @@ docker-compose up
 
 ## Run notebooks to reindex
 
+View notebooks online:
+* [NBViewer](https://nbviewer.org/github/cehbrecht/rook-search/blob/main/notebooks/)
+
+Run notebooks locally:
 ```
 cd notebooks
 mamba env create

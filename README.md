@@ -1,2 +1,13 @@
 # rook-search
-Docker compose to setup elasticsearch for rook subsetting service.
+
+Run docker container with ElasticSearch.
+
+ElasticSearch has an index for fixes that get applied to datasets provided by
+the Rook subsetting service.
+
+## Run docker container
+
+```
+cd docker/
+docker-compose up
+```

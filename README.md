@@ -11,3 +11,11 @@ the Rook subsetting service.
 cd docker/
 docker-compose up
 ```
+
+## Run notebooks to reindex
+
+```
+cd notebooks
+mamba env create
+jupyter lab
+```

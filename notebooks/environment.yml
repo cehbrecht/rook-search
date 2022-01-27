@@ -1,0 +1,14 @@
+# conda env create -f environment.yml
+name: es
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - ca-certificates
+  - certifi
+  - openssl
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+  - elasticsearch
